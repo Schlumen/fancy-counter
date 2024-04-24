@@ -5,9 +5,9 @@ import CountButtons from "./CountButtons";
 
 export default function Card() {
   return (
-    <div>
+    <div className="card">
       <Title />
-      <Count number={6} />
+      <Count />
       <ResetButton />
       <CountButtons />
     </div>
